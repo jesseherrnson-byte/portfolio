@@ -1,0 +1,43 @@
+.footer {
+    float: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #222222, #333333, #222222);
+}
+
+.footer div {
+    float: middle;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.footer p {
+    margin: 5px;
+    width: fit-content;
+    font-weight: 100;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.footer div * {
+    margin: 5px;
+    width: fit-content;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
