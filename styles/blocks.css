@@ -57,8 +57,14 @@ div.gallery-item img {
     height: auto;
     aspect-ratio: 1;
     border-style: solid;
+    border-color: #37b2f0;
     border-width: 2px;
     border-radius: 5%;
+    transition: border-width .4s ease;
+}
+
+div.gallery-item img:active {
+    border-color: #277fab;
 }
 
 div.gallery-item .overlay {
