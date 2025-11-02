@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>One Earth | Jesse Herrnson</title>
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/link.css">
+    <link rel="stylesheet" href="/styles/blocks.css">
+    <link rel="stylesheet" href="/styles/text.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        p {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!----Include Header---->
+    <div w3-include-html="/elements/header.html"></div>
+
+    <script>
+        w3IncludeHTML();
+    </script>
+
+    <div class="main">
+        <div class="columns" style="animation: 2s ease-out 1s 1 load; animation-fill-mode: backwards;">
+            <div class="body-text">
+                <p><span class="focus">One Earth</span> was a game I worked on when taking IDEA350, an intensive course
+                    on game design and development taught by Professor Christopher Weaver at Wesleyan Univesristy. In
+                    the course, I was in a team of 5, with two other artists/designers and two other coders. We were
+                    tasked with developing an educational video game for elementary school age children within the
+                    course of three months. Our team leader picthed a game centered on sustainability, which became One
+                    Earth, named as such for the fact that it would take five Earths worth of resources to sustain the
+                    world if everyone consumed the amount of the average American.</p>
+            </div>
+            <img src="/images/oneearthwide.png" alt="One Earth"
+                style="width: 40%; padding:0; margin-left: 30px; margin-right: 15px; border-style:solid; border-color: white; border-radius: 15px;">
+        </div>
+        <div class="columns" style="animation: 2s ease-out 1.5s 1 load; animation-fill-mode: backwards;">
+            <div style="width: 50%; padding:0; margin-left:20px; margin-bottom:-40px;">
+                <img style="border-style:solid; border-color: white; border-radius: 15px; padding:0; width: 60%;"
+                    src="/images/oneearthscore.png" alt="Score System">
+                <img style="border-style:solid; border-color: white; border-radius: 15px; padding:0; width: 60%; position:relative; top:-5vw; left:12vw;"
+                    src="/images/oneearthrecycle.png" alt="Recycling">
+            </div>
+            <div class="body-text" style="margin-left:0px; margin-right:10px;">
+                <p>One Earth focused on teaching kids about the different ways to dispose of items, and the differences
+                    between trash, recycling, compost, e-waste, etc. The goal: reduce the five Earths metric down to
+                    just one by utilizing sustainable habits. The gameplay focused on kids identifying which bins items
+                    were supposed to go to and picking them up around the map. As they put more items into the correct
+                    bins, their score would decrease and the Earths would wane until there was only one left.
+                </p>
+            </div>
+        </div>
+        <div class="body-text" style="animation: 2s ease-out 2s 1 load; animation-fill-mode: backwards;">
+            <p style="margin-left: 20px; margin-right:20px; margin-top:20px;">As a coder/designer for this project, I
+                was tasked with developing the speech and text system for interacting with NPCs, scoring systems, and
+                main gameplay. Upon our team's realization that the original gameplay might be a bit too monotonous, I
+                proposed to the team leader that we develop three unlockable minigames to break up the gameplay and
+                teach different concepts. I designed, along with the other artist, these three minigames, which taught
+                students how plastic bottles were recycled, how compost was used, and how batteries and e-waste were
+                reclaimed. These minigames were vital to our game winning the course, as a panel of professors and game
+                industry professionals appreciated their approach to teaching. This course taught me how to work in a
+                multi-disciplinary team and the basics of a Scrum/Agile workflow, along with increasing my knowledge in
+                Unity and C#.</p>
+        </div>
+        <div class="body-text" style="animation: 2s ease-out 2.5s 1 load; animation-fill-mode: backwards;">
+            <img src="/images/oneearthminigame1.png" alt="Minigame 1"
+                style="height: 9em; padding:0; margin-left: 20px; margin-right: 0px; border-style:solid; border-color: white; border-radius: 15px;">
+            <img src="/images/oneearthminigame2.png" alt="Minigame 2"
+                style="height: 9em; padding:0; margin-left: 0px; margin-right: 0px; border-style:solid; border-color: white; border-radius: 15px;">
+            <img src="/images/oneearthminigame3.png" alt="Minigame 3"
+                style="height: 9em; padding:0; margin-left: 0px; margin-right: 20px; border-style:solid; border-color: white; border-radius: 15px;">
+        </div>
+    </div>
+
+    <!----Include Footer---->
+    <div w3-include-html="/elements/footer.html"></div>
+
+</body>
+
+</html>
