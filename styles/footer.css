@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, #222222, #333333, #222222);
+    font-family: sans-serif;
+    color: #FFFFFF;
 }
 
 .footer div {

@@ -1,6 +1,8 @@
 .main-point {
     font-size:2.6vw;
     font-weight: 100;
+    font-family: sans-serif;
+    color: #BBBBBB;
     text-wrap: wrap;
     vertical-align: middle;
 }
@@ -16,6 +18,8 @@
 .body-text {
     font-size: 1.8vw;
     font-weight: 100;
+    font-family: sans-serif;
+    color: #BBBBBB;
     text-wrap: wrap;
 }
 
@@ -31,6 +35,8 @@
     width: 100%;
     font-size: 3.6vw;
     font-weight:100;
+    font-family: sans-serif;
+    color: #BBBBBB;
     font-style: italic;
     padding-top: 10px;
     padding-bottom: 10px;
