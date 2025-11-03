@@ -39,7 +39,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #a6a1a1;
-    width: 8cqb;
+    width: 10cqb;
     box-shadow: 2cqb 8px 16px 3px rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
