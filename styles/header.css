@@ -47,7 +47,7 @@ li.dropdown {
     text-decoration: none;
     transition: background-color .6s ease-in;
     display: block;
-    width: calc(100% - 24px);
+    width: calc(100% - 28px);
     text-align: center;
 }
 
