@@ -15,8 +15,31 @@
 .main {
     padding-top: 15px;
     padding-bottom: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: #0C0C14;
     min-height: 75vh;
+}
+
+/* Button */
+.button {
+    position: relative;
+    width: fit-content !important;
+    color: #37b2f0;
+    box-shadow: 0px 2px 8px #37b2f000;
+    font-size: 2.8vw;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 5px 3vw !important;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    top: 0px;
+    transition: top, box-shadow 1.5s ease;
+}
+
+.button:hover {
+    top: -2px;
+    box-shadow: 0px 4px 8px #37b2f0AA;
 }
 
 /* Multi-column layout */
@@ -31,6 +54,45 @@
     padding: 5px;
     text-align: left;
     width: 100%;
+}
+
+/* Languages */
+.languages div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages div div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 8%;
+    background-image: linear-gradient(300deg, #1A1A1A 20%, #2A2A3A 21%, #2A2A3A 50%, #1A1A1A 51%);
+    box-shadow: 0px 2px 8px #37b2f088;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left:5%;
+    padding-right:5%;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #37b2f0;
+}
+
+.languages div div * {
+    font-size: 1.4vw;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2.5px;
 }
 
 /* Gallery layout */
@@ -69,27 +131,36 @@ div.gallery-item img:active {
 
 div.gallery-item .overlay {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 2px;
     left: 2px;
     width: calc(100%);
-    height: calc(100%);
+    height: calc(100% - 4px);
     border-width: 2px;
     border-radius: 4%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
-    color: #f1f1f1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.85));
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 3.6vw;
+    font-size: 5.6vw;
     font-weight: 100;
     font-style: italic;
     font-family: sans-serif;
     text-align: center;
     margin: 0;
     pointer-events: none;
+}
+
+div.gallery-item .overlay p {
+    margin: 10px 0px;
+    width: calc(90% - 20px);
+    color: #37b2f0;
+    font-size: 2.2vw;
+    font-weight: 100;
+    text-wrap: wrap;
 }
 
 div.gallery-item:hover .overlay {

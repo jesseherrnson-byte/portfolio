@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <base href="/portfolio/">
+    <base href="/">
     <title>Jesse Herrnson</title>
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -39,47 +39,109 @@
 
     <div class="main">
         <div class="columns" style="animation: 2s ease-out 1s 1 load; animation-fill-mode: backwards;">
-            <div>
-                <div class="main-point">
-                    <p><span class="focus">Jesse Herrnson</span> is a software engineer, game designer, educator,
-                        musician, and lover of puzzles, film, TV, and any kind of interactive storytelling.</p>
+            <div style="font-family: sans-serif; font-weight:100; text-align: center;">
+                <p style="font-size:7.6vw; color:white; margin-left:10px; margin-bottom: 0;">Hi. I'm
+                    <span style="color:#37b2f0; font-weight:500;">Jesse.</span>
+                </p>
+                <p
+                    style="font-size:2.2vw; font-style: italic; color:#BBBBBB; margin-left:10px; margin-top: 0; margin-bottom: 5%;">
+                    Software
+                    engineer, game designer, educator, musician.
+                </p>
+                <a href="#links" class="button">
+                    See What I'm Working On <i style="display: inline;" class="fa fa-chevron-down"
+                        aria-hidden="true"></i>
+                </a>
+            </div>
+            <img src="files/main-page/headshot.png" alt="Headshot"
+                style="width: 30%; margin-right: 50px; padding: 0; border-style: solid; border-color: white; border-radius: 10px;">
+        </div>
+        <div>
+            <div class="columns"
+                style="animation: 2s ease-out 1.5s 1 load; animation-fill-mode: backwards; background-image: linear-gradient(#1c1c2c00, #1c1c2c 10%, #1c1c2c 90%, #1c1c2c00); padding-top: 3vh; padding-bottom: 3vh;">
+                <div class="main-point" style="width: 50%;">
                     <p>At a young age, Jesse was introduced to video games and technology, and he quickly became
                         obsessed with learning how computers worked and how to make things for them. It was that passion
                         for "making" that set Jesse on a journey to study software engineering and find his passion
-                        for creating interactive experiences and education.</p>
+                        for creating interactive experiences and educational programming.</p>
                     <p>Now, Jesse is game designer and full-stack engineer competent in multiple programming languages,
                         AI, and the iterative design process.</p>
                 </div>
+                <div class="languages" style="width: 50%; position:absolute; left:47vw;">
+                    <div>
+                        <div style="animation: 1s ease-out 1.5s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/unity.png" alt="Unity Logo">
+                            <p>Unity</p>
+                        </div>
+                        <div style="animation: 1s ease-out 1.75s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/csharp.png" alt="C# Logo">
+                            <p>C#</p>
+                        </div>
+                        <div style="animation: 1s ease-out 2s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/python.png" alt="Python Logo">
+                            <p>Python</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="animation: 1s ease-out 2.25s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/html.png" alt="HTML Logo">
+                            <p>HTML</p>
+                        </div>
+                        <div style="animation: 1s ease-out 2.5s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/css.png" alt="CSS Logo">
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="animation: 1s ease-out 2.75s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/java.png" alt="Java Logo">
+                            <p>Java</p>
+                        </div>
+                        <div style="animation: 1s ease-out 3s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/sql.png" alt="SQL Logo">
+                            <p>SQL</p>
+                        </div>
+                        <div style="animation: 1s ease-out 3.5s 1 load; animation-fill-mode: backwards;">
+                            <img src="files/main-page/git.png" alt="Git Logo">
+                            <p>Git</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="files/main-page/headshot.png" alt="Headshot" style="width: 40%; margin-left: 15px; margin-right: 15px; padding: 0; border-style: solid; border-color: white; border-radius: 10px;">
-        </div>
-        <div>
-            <h2 class="center-header" style="animation: 2s ease-out 1.5s 1 load; animation-fill-mode: backwards;">––––
+            <h2 class="center-header" style="animation: 2s ease-out 2s 1 load; animation-fill-mode: backwards;">––––
                 Quick Links ––––</h2>
-            <div class="gallery" style="animation: 2s ease-out 2s 1 load; animation-fill-mode: backwards;">
+            <div class="gallery" id="links" style="animation: 2s ease-out 2.5s 1 load; animation-fill-mode: backwards;">
                 <div class="gallery-item">
                     <a href="resume.html">
-                        <img src="files/main-page/resume.png" alt="">
+                        <img src="files/main-page/resume.png" alt="Resume">
                     </a>
-                    <h1 class="overlay">Resume</h1>
+                    <h1 class="overlay">Resume
+                        <p>Follow my career journey</p>
+                    </h1>
                 </div>
                 <div class="gallery-item">
                     <a href="games/ink.html">
-                        <img src="files/main-page/ink.png" alt="">
+                        <img src="files/main-page/ink.png" alt="INK">
                     </a>
-                    <h1 class="overlay">INK</h1>
+                    <h1 class="overlay">INK
+                        <p>A game about failure and learning</p>
+                    </h1>
                 </div>
                 <div class="gallery-item">
                     <a href="games/oneearth.html">
-                        <img src="files/oneearth/oneearth.png" alt="">
+                        <img src="files/oneearth/oneearth.png" alt="One Earth">
                     </a>
-                    <h1 class="overlay">One Earth</h1>
+                    <h1 class="overlay">One Earth
+                        <p>An educational game about saving the planet</p>
+                    </h1>
                 </div>
                 <div class="gallery-item">
-                    <a href="resume.html">
-                        <img src="files/main-page/code.png" alt="">
+                    <a href="projects/site.html">
+                        <img src="files/main-page/code.png" alt="Website">
                     </a>
-                    <h1 class="overlay">temp</h1>
+                    <h1 class="overlay">Website
+                        <p>See how I created the website you're on now!</p>
+                    </h1>
                 </div>
             </div>
         </div>

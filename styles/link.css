@@ -1,9 +1,9 @@
-a:not(:has(img)) {
+a:not(:has(img), .button) {
     display: inline-block;
     position: relative;
 }
 
-a:not(:has(img))::after {
+a:not(:has(img), .button)::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -17,7 +17,7 @@ a:not(:has(img))::after {
     transition: transform 0.4s ease-out;
 }
 
-a:not(:has(img)):hover::after {
+a:not(:has(img), .button):hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
