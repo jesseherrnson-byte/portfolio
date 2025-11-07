@@ -97,7 +97,7 @@
 }
 
 .languages div div img {
-    aspect-ratio: 2;
+    aspect-ratio: 2/1;
 }
 
 /* Gallery layout */
