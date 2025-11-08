@@ -11,6 +11,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Main Block */
 .main {
     padding-top: 15px;
@@ -27,7 +31,6 @@
     box-shadow: 0px .2em .8em #37b2f000;
     font-size: 2.8vw;
     font-weight: 600;
-    font-family: sans-serif;
     padding: 5px 3vw !important;
     border-style: solid;
     border-radius: 5px;
@@ -79,8 +82,8 @@
     box-shadow: 0px 2px 8px #37b2f088;
     padding-top: 5px;
     padding-bottom: 0;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-style: solid;
     border-radius: 4px;
     border-color: #37b2f0;

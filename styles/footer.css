@@ -1,3 +1,7 @@
+* {
+    font-family: 'Noto Sans', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
 .footer {
     float: middle;
     display: flex;
@@ -10,7 +14,6 @@
     justify-content: center;
     align-items: center;
     background-color: #1A1A20;
-    font-family: sans-serif;
     color: #FFFFFF;
 }
 
