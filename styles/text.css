@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Noto Sans', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
 .main-point {
     font-size:2.0vw;
     font-weight: 100;
-    font-family: sans-serif;
     color: #BBBBBB;
     text-wrap: wrap;
     vertical-align: middle;
@@ -14,7 +19,6 @@
 .body-text {
     font-size: 1.8vw;
     font-weight: 100;
-    font-family: sans-serif;
     color: #BBBBBB;
     text-wrap: wrap;
 }
@@ -32,7 +36,6 @@
     width: 100%;
     font-size: 3.6vw;
     font-weight:100;
-    font-family: sans-serif;
     color: #BBBBBB;
     font-style: italic;
     padding-top: 10px;
