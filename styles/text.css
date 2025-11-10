@@ -23,6 +23,12 @@
     text-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+    .body-text {
+        font-weight: 300;
+    }
+}
+
 .focus {
     font-size: 1.2em;
     padding: 0;
