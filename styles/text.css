@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 600px) {
-    .body-text {
+    .body-text, .main-point {
         font-weight: 300;
     }
 }
