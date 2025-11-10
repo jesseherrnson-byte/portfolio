@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="/">
+    <title>Digital Intro | Jesse Herrnson</title>
+    <link rel="icon" type="image/x-icon" href="files/favicon.ico">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/link.css">
+    <link rel="stylesheet" href="styles/blocks.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        p {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!----Include Header---->
+    <div w3-include-html="elements/header.html"></div>
+
+    <script>
+        w3IncludeHTML();
+    </script>
+
+    <div class="main">
+        <div class="body-text"
+            style="animation: 2s ease-out 1s 1 load; animation-fill-mode: backwards; margin-left:10px;">
+            <p style="margin-bottom:0;">During my time at Wesleyan University, I worked for Professor Lisa Dierker in
+                creating materials for a project called Digital Intro. Digital Intro is a novel approach to Wesleyan’s
+                PSYC105 Foundations of Contemporary Psychology course which has students “explore concepts and content
+                in the field of psychology through video storytelling, programming, data visualization, web development,
+                design and more.”</p>
+        </div>
+        <div class="body-text"
+            style="animation: 2s ease-out 1.5s 1 load; animation-fill-mode: backwards; margin-left:10px;">
+            <p style="margin-bottom:0;">As part of my work for this course, I created educational video content which
+                students would watch throughout the course as supplementary material to readings. These videos were
+                created using Adobe Premiere and Photoshop. For the sections I worked on, I took inspiration from many
+                educational Youtube channels I watched as a kid, including CGP Grey and LEMMiNO. You can see the videos
+                I worked on (Emotion and Language) on the <a src="https://digitalintro.wescreates.wesleyan.edu/"
+                    class="focus">course website</a> on the "Video" tab.</p>
+        </div>
+        <div style="animation: 2s ease-out 2s 1 load; animation-fill-mode: backwards; margin:20px;">
+            <img style="border-style:solid; border-color: white; border-radius: 15px; padding:0; width:100%;"
+                    src="files/psych-vid.png" alt="Digital Intro Video">
+        </div>
+    </div>
+
+    <!----Include Footer---->
+    <div w3-include-html="elements/footer.html"></div>
+
+</body>
+
+</html>
