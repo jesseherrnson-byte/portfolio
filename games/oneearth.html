@@ -24,9 +24,62 @@
             padding: 0;
         }
 
-        h1,
-        p {
-            margin: 10px;
+        #overlap {
+            width: 50%;
+            padding: 0;
+        }
+
+        #overlap-backup {
+            display: none;
+        }
+
+        #minigames {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #minigames * {
+            width: 30cqw;
+            height: auto;
+            padding: 0;
+            border-style: solid;
+            border-color: white;
+            border-radius: 15px;
+        }
+
+        @media screen and (max-width: 600px) {
+            #overlap {
+                display: none;
+            }
+
+            #overlap-backup {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                width: 100%;
+            }
+
+            #overlap-backup * {
+                border-style: solid;
+                border-color: white;
+                border-radius: 15px;
+                padding: 0;
+                width: 60cqw !important;
+            }
+
+            #minigames {
+                flex-direction: column;
+            }
+
+            #minigames * {
+                width: 80cqw;
+                height: auto;
+            }
         }
     </style>
 </head>
@@ -52,16 +105,16 @@
                     that number down to one.</p>
             </div>
             <img src="files/oneearth/oneearthwide.png" alt="One Earth"
-                style="width: 40%; padding:0; margin-left: 30px; margin-right: 15px; border-style:solid; border-color: white; border-radius: 15px;">
+                style="width: 40%; padding:0; border-style:solid; border-color: white; border-radius: 15px;">
         </div>
         <div class="columns" style="animation: 2s ease-out 1.5s 1 load; animation-fill-mode: backwards;">
-            <div style="width: 50%; padding:0; margin-left:20px; margin-bottom:-40px;">
+            <div id="overlap">
                 <img style="border-style:solid; border-color: white; border-radius: 15px; padding:0; width: 60%;"
                     src="files/oneearth/oneearthscore.png" alt="Score System">
                 <img style="border-style:solid; border-color: white; border-radius: 15px; padding:0; width: 60%; position:relative; top:-5vw; left:12vw;"
                     src="files/oneearth/oneearthrecycle.png" alt="Recycling">
             </div>
-            <div class="body-text" style="margin-left:0px; margin-right:10px;">
+            <div class="body-text">
                 <p>One Earth focuses on teaching kids about the different ways to dispose of items, and the differences
                     between trash, recycling, compost, e-waste, etc. The goal: reduce the five Earths metric down to
                     just one by utilizing sustainable habits. The gameplay is focused on kids identifying which bins
@@ -69,9 +122,13 @@
                     correct bins, their score decreases and the Earths wane until there is only one left.
                 </p>
             </div>
+            <div id="overlap-backup">
+                <img src="files/oneearth/oneearthscore.png" alt="Score System">
+                <img src="files/oneearth/oneearthrecycle.png" alt="Recycling">
+            </div>
         </div>
         <div class="body-text" style="animation: 2s ease-out 2s 1 load; animation-fill-mode: backwards;">
-            <p style="margin-left: 20px; margin-right:20px; margin-top:20px;">As a coder/designer for this project, I
+            <p>As a coder/designer for this project, I
                 developed the speech and text system for interacting with NPCs, scoring systems, and main gameplay. Upon
                 our team's realization that the original gameplay might be a bit too monotonous, I proposed we develop
                 three unlockable minigames to break up the gameplay and teach different concepts. I designed, along with
@@ -81,13 +138,10 @@
                 teaching. This course taught me how to work in a multi-disciplinary team and the basics of a Scrum/Agile
                 workflow, along with increasing my knowledge in Unity and C#.</p>
         </div>
-        <div class="body-text" style="animation: 2s ease-out 2.5s 1 load; animation-fill-mode: backwards;">
-            <img src="files/oneearth/oneearthminigame1.png" alt="Minigame 1"
-                style="height: 9em; padding:0; margin-left: 20px; margin-right: 0px; border-style:solid; border-color: white; border-radius: 15px;">
-            <img src="files/oneearth/oneearthminigame2.png" alt="Minigame 2"
-                style="height: 9em; padding:0; margin-left: 0px; margin-right: 0px; border-style:solid; border-color: white; border-radius: 15px;">
-            <img src="files/oneearth/oneearthminigame3.png" alt="Minigame 3"
-                style="height: 9em; padding:0; margin-left: 0px; margin-right: 20px; border-style:solid; border-color: white; border-radius: 15px;">
+        <div id="minigames" style="animation: 2s ease-out 2.5s 1 load; animation-fill-mode: backwards;">
+            <img src="files/oneearth/oneearthminigame1.png" alt="Minigame 1">
+            <img src="files/oneearth/oneearthminigame2.png" alt="Minigame 2">
+            <img src="files/oneearth/oneearthminigame3.png" alt="Minigame 3">
         </div>
     </div>
 

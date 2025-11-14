@@ -33,7 +33,7 @@
 .center-header {
     float: middle;
     text-align: center;
-    width: 100%;
+    width: auto;
     font-size: 3.6vw;
     font-weight:100;
     color: #BBBBBB;
