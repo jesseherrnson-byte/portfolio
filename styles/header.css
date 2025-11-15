@@ -67,7 +67,7 @@ li.dropdown {
     background-color: #44444F;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 767px){
     .header {
         font-weight:300;
     }
@@ -82,7 +82,7 @@ li.dropdown {
     }
 }
 
-@media screen and (max-device-width: 700px){
+@media screen and (max-device-width: 600px){
     .header {
         width: 100%;
         height: 5vh;

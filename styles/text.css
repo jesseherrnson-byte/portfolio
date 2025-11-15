@@ -42,7 +42,7 @@
     padding-bottom: 10px;
 }
 
-@media screen and (max-device-width: 700px) or (max-width: 700px) {
+@media screen and (max-device-width: 767px) {
     .body-text {
         font-weight: 300;
         font-size: 2.2vw !important;

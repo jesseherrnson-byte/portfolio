@@ -214,7 +214,7 @@ div.gallery-item:hover .overlay {
     border-radius: 10px;
 }
 
-@media screen and (max-device-width: 700px) or (max-width: 700px) {
+@media screen and (max-device-width: 600px) {
     .columns {
         flex-direction: column;
     }
