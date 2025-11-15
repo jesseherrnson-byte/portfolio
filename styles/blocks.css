@@ -223,6 +223,10 @@ div.gallery-item:hover .overlay {
         width: 100% !important;
     }
 
+    .languages {
+        width: 80% !important;
+    }
+
     #intro-text :not(a) {
         text-align: center !important;
         margin-left: 0 !important;
