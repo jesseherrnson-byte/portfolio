@@ -17,10 +17,17 @@
 }
 
 .body-text {
-    font-size: 1.8vw;
+    font-size: 1.8vmax;
     font-weight: 100;
     color: #BBBBBB;
     text-wrap: wrap;
+}
+
+.tooltiptext {
+    font-size: 1.2vmax !important;
+    font-weight: 100 !important;
+    font-style: italic;
+    color: #BBBBBB;
 }
 
 .focus {
